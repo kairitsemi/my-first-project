@@ -1,0 +1,193 @@
+<app-header [buttonText]="categoryName + ' search'"></app-header>
+
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">
+          {{ categoryName }}
+        </li>
+      </ol>
+    </nav>
+    <h1 class="display-5 fw-bold">{{ categoryName?.toLocaleUpperCase() }}</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row main">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <p class="h1 mb-5">Most Read</p>
+
+      <div class="card">
+        <img src="assets/ball-2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">How to make best basketball pictures</h5>
+          <p class="card-text">
+            Changing places during the game is important and you should
+            definitely not fall in love with one position, but constantly
+            walking around does the pictures a disservice. If you keep walking
+            around the square and looking for a "better place", you will have a
+            situation where you no longer control the background of your
+            pictures. It would be better to choose a position for a while and
+            then let the game and interesting moments come to you.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card mt-3">
+        <img src="assets/photos-2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">How to keep your saved pictures safe</h5>
+          <p class="card-text">
+            I have three different copies of the pictures, physically in two
+            different locations. In fact, there is also a fourth disc that
+            stores the most important family and travel photos. This media is
+            stored in a safe place and is not removed too often. For this added
+            security, it's a good idea to use old hard drives that have fallen
+            out of the rotation of daily archive storage due to their small
+            capacity.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <p class="h1 mb-5">Categories</p>
+      <ul class="category-vidget">
+        <li>
+          <a href="">Sport <span>100</span></a>
+        </li>
+        <li>
+          <a href="">Photos <span>50</span></a>
+        </li>
+        <li>
+          <a href="">News <span>150</span></a>
+        </li>
+        <li>
+          <a href="">Blog <span>70</span></a>
+        </li>
+      </ul>
+
+      <p class="h1 my-5">Archive</p>
+      <ul class="category-vidget">
+        <li>
+          <a href="">2020</a>
+        </li>
+        <li>
+          <a href="">2019</a>
+        </li>
+        <li>
+          <a href="">2018</a>
+        </li>
+        <li>
+          <a href="">2017</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

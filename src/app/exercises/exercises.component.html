@@ -1,0 +1,35 @@
+<div class="container">
+  <p>
+    Generate a new conponent (excersises), declare a number variable and design
+    a button. Whenever the button is being clickes the number variable should be
+    squared. Display the number variable in an input field
+  </p>
+
+  <p>{{ displayNumber }}</p>
+
+  <button (click)="onBtnClick()" class="btn btn-primary">
+    Find the square
+  </button>
+  <input type="text" [(ngModel)]="displayNumber" />
+
+  <p>
+    I have an input and a button, and I have a class variable/property (number)
+    which is displayes in the input, another class variable (string). Whenever
+    the buton is being clicked I want to multiply the number by 5. If the number
+    is greater than 150, i want the button disabled and a message saying,
+    "You've reached the limits"
+  </p>
+
+  <button
+    (click)="onMultiply()"
+    [disabled]="buttonState"
+    class="btn btn-primary"
+  >
+    Multiply by 5
+  </button>
+  <input type="text" [(ngModel)]="numberValue" />
+  <p>{{ stringValue }}</p>
+</div>
+
+<h1 class="mt-5">Exercise Component</h1>
+<p>The number Value coming from the parent is {{ displayValueFromParent }}</p>
